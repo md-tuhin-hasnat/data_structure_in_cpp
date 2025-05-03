@@ -1,4 +1,4 @@
-# Custom Data Structures in C++
+# Data Structures in C++
 
 Hi there!
 This is a personal project where I'm building some basic data structures in C++ from scratch — like `Vector`, `Set`, and more (coming soon!).
@@ -20,6 +20,6 @@ The goal is to learn how these containers work internally, and not rely fully on
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/custom-data-structures.git
-cd custom-data-structures
+git clone https://github.com/md-tuhin-hasnat/data_structure_in_cpp.git
+cd data_structure_in_cpp
 ```
