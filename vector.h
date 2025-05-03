@@ -56,6 +56,23 @@ public:
         }
         return data[index];
     }
+
+    T *begin(){
+        return data;
+    }
+
+    T *end(){
+        return data+_size;
+    }
+
+    T *rbegin(){
+        return data+_size;
+    }
+
+    T *rend(){
+        return data;
+    }
+
 };
 
 #endif // VECTOR_H
