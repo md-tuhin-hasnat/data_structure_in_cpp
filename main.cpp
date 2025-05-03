@@ -19,7 +19,7 @@ int main(){
     v.push_back(rand());
   }
   
-  sort(v.begin(),v.end());
+  sort(v.rbegin(),v.rend());
   
   for(auto i:v){
     cout<<i<<"\n";
