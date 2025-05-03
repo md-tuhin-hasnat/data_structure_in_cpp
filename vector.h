@@ -1,3 +1,4 @@
+#include <iterator>
 #ifndef VECTOR_H
 #define VECTOR_H
 
@@ -65,12 +66,12 @@ public:
         return data+_size;
     }
 
-    T *rbegin(){
-        return data+_size;
+    std::reverse_iterator<T *> rbegin(){
+        return std::reverse_iterator<T*>(end());
     }
 
-    T *rend(){
-        return data;
+    std::reverse_iterator<T *> rend(){
+        return std::reverse_iterator<T*>(begin());
     }
 
 };
